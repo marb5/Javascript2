@@ -55,4 +55,20 @@ newNumber.toFixed(1);
 newNumber.toString();
 newNumber.toString(2);
 123..toString(16);
-newNumber.toExponential()
+newNumber.toExponential();
+
+const userName = "Marcin"; // "" ''
+const userName2 = `Marcin`; //super string
+
+userName.concat(" Bielen");
+userName + " Bielen";
+`${userName} Bielen`;
+
+userName.indexOf('c'); //check if c is in string, start searching from beginning
+userName.lastIndexOf('c'); //same up but from ending
+userName.includes('w'); //if letter w is in string
+
+"   word  ".trim() //delete white signs
+"word".repeat(5)
+
+userName.slice(2, 5)
