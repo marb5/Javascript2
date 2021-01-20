@@ -72,3 +72,7 @@ userName.includes('w'); //if letter w is in string
 "word".repeat(5)
 
 userName.slice(2, 5)
+
+"1" == true; //true
+"1" === true; //false
+
