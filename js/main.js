@@ -76,3 +76,17 @@ userName.slice(2, 5)
 "1" == true; //true
 "1" === true; //false
 
+const variable1 = [];
+
+variable1 instanceof String;
+variable1 instanceof Array;
+variable1 instanceof Object;
+variable1 instanceof Function;
+
+Array.isArray(variable1);
+
+const [nameUser, idUser, ageUser] = ["Anonim", 132, 23];
+
+const point = [3.65, 7.23];
+
+let [x, y] = point;
