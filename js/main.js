@@ -44,3 +44,15 @@ console.log(varVariable); //hoisting - przenoszenie deklaracji zmiennych (bez in
 var varVariable = 1;
 //let letVariable = 1;
 //const constVariable = 1;
+
+const newNumber = 123.45;
+
+newNumber.toFixed();
+newNumber.toFixed(1);
+//123.toFixed(0); //wrong
+123..toFixed(0);
+
+newNumber.toString();
+newNumber.toString(2);
+123..toString(16);
+newNumber.toExponential()
